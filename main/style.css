@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+    url('../fonts/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+    url('../fonts/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+body {
+    background: #FBFBFB;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.cont {
+    margin: 0 auto;
+    max-width: 560px;
+    width: 82%;
+    position: relative;
+    overflow: hidden;
+}
+
+.articleHead {
+    width: 100%;
+    margin: 20px 0 16px 0;
+}
+
+.articleHead h3, .new {
+    display: inline;
+}
+
+.new {
+    margin-left: 10px;
+    min-width: 50px;
+    padding: 1px 7px;
+    border: 1px solid #1890FF;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: 20%;
+    color: #1890FF;
+}
+
+.logo {
+    margin: 54px 0 32px 0;
+}
+
+.logo svg {
+    width: 114px;
+    height: 24px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head p {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 16px;
+    color: #515759;
+}
+
+.chapter h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.chapter p {
+    font-size: 16px;
+    color: #515759;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    padding-top: 16px;
+    border-top: 1px solid rgba(214, 215, 217, 0.8);
+    font-size: 12px;
+    color: #949494;
+}
+
+footer a {
+    color: #1890FF;
+    text-decoration: none;
+}
+
+.chapter {
+    margin-bottom: 50px;
+}
+
+.copy {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 2500px) {
+    .cont {
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    .img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .logo svg {
+        width: 181px;
+        height: 36px;
+    }
+
+    .new {
+        font-size: 18px;
+    }
+
+    .bashka p {
+        font-size: 24px;
+    }
+
+    .chapter h3 {
+        font-size: 36px;
+    }
+
+    .chapter p {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .logo {
+        margin: 22px 0 15px 0;
+    }
+
+    .bashka p {
+        margin-bottom: 15px;
+    }
+
+    .articleHead {
+        margin: 5px 0 8px 0;
+    }
+
+    .chapter {
+        margin-bottom: 25px;
+    }
+
+    .chapter p {
+        font-size: 13px;
+    }
+
+    .chapter h3 {
+        font-size: 20px;
+    }
+}
